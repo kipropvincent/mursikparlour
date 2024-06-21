@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Milk Parlour</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        header {
+            background: #6b8e23;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #8fbc8f;
+            padding: 10px 0;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+        nav a:hover {
+            background-color: #556b2f;
+        }
+        .container {
+            padding: 20px;
+        }
+        .products, .about, .contact {
+            margin: 20px 0;
+        }
+        .products img {
+            max-width: 100%;
+            height: auto;
+        }
+        footer {
+            background: #6b8e23;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Milk Parlour</h1>
+    </header>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About Us</a>
+        <a href="#products">Products</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="container">
+        <section id="home">
+            <h2>Fresh Milk Products</h2>
+            <p>Welcome to our Milk Parlour, where we offer the freshest cow milk products directly from our farm.</p>
+        </section>
+        <section id="about" class="about">
+            <h2>About Us</h2>
+            <p>We are a family-owned dairy farm dedicated to providing fresh, high-quality milk products. Our cows are well-cared for and fed a natural diet to ensure the best milk for our customers.</p>
+        </section>
+        <section id="products" class="products">
+            <h2>Our Products</h2>
+            <div>
+                <h3>Fresh Milk</h3>
+                <img src="milk.jpg" alt="Fresh Milk">
+                <p>Our fresh milk is straight from the farm, full of nutrients, and delicious.</p>
+            </div>
+            <div>
+                <h3>Yogurt</h3>
+                <img src="yogurt.jpg" alt="Yogurt">
+                <p>Our yogurt is creamy, rich, and perfect for a healthy snack.</p>
+            </div>
+            <div>
+                <h3>Cheese</h3>
+                <img src="cheese.jpg" alt="Cheese">
+                <p>Our cheese is made from the finest milk and aged to perfection.</p>
+            </div>
+        </section>
+        <section id="contact" class="contact">
+            <h2>Contact Us</h2>
+            <p>Email: info@milkparlour.com</p>
+            <p>Phone: (123) 456-7890</p>
+            <p>Address: 123 Dairy Lane, Farmville, Country</p>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 Milk Parlour. All rights reserved.</p>
+    </footer>
+</body>
+</html>
